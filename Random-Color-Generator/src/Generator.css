@@ -1,0 +1,13 @@
+.container {
+  border-radius: 15px;
+  padding: 10px;
+}
+button {
+  margin: 5px;
+}
+
+.gene {
+  border-radius: 20px;
+  padding: 20px;
+  color: yellow;
+}
