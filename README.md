@@ -7,3 +7,4 @@
 5. Load More Button
 6. Recursive Navigation Menu
 7. QR Code Generator
+8. Dark Theme
