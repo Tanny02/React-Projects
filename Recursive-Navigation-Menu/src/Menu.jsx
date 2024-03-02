@@ -1,6 +1,5 @@
 import React from "react";
 import "./Menu.css";
-import { useState, useEffect } from "react";
 import MenuList from "./MenuList";
 
 const Menu = ({ menus = [] }) => {
