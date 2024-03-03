@@ -1,0 +1,24 @@
+.wrapper {
+  padding: 10px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.tab-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 10px;
+}
+
+.tab-item.active {
+  background-color: rgba(0, 0, 255, 1);
+}

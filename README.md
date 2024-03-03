@@ -9,3 +9,4 @@
 7. QR Code Generator
 8. Dark Theme
 9. Scroll Indicator
+10. Tabs
