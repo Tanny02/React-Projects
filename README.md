@@ -8,3 +8,4 @@
 6. Recursive Navigation Menu
 7. QR Code Generator
 8. Dark Theme
+9. Scroll Indicator

@@ -1,0 +1,23 @@
+.top-container {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: blueviolet;
+}
+
+.scroll-container {
+  width: 100%;
+  height: 10px;
+  background-color: blanchedalmond;
+}
+
+.progress {
+  width: 0%;
+  height: 10px;
+  background-color: blue;
+}
+
+.data-container {
+  margin-top: 100px;
+}
