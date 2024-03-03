@@ -10,3 +10,4 @@
 8. Dark Theme
 9. Scroll Indicator
 10. Tabs
+11. Popup
