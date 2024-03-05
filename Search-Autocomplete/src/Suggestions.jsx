@@ -1,10 +1,14 @@
 import React from "react";
 
-const Suggestions = ({ data }) => {
+const Suggestions = ({ data, handleClick }) => {
   return (
     <ul>
       {data && data.length
-        ? data.map((result) => <li key={index}>{result}</li>)
+        ? data.map((result) => (
+            <li key={index} onClick={handleClick}>
+              {result}
+            </li>
+          ))
         : null}
     </ul>
   );

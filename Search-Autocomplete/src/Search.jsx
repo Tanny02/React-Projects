@@ -25,6 +25,12 @@ const Search = () => {
     }
   };
 
+  const handleClick = (e) => {
+    setSearch(e.target.innerText);
+    setShow(false);
+    setSearchResults([]);
+  };
+
   const fetchData = async () => {
     try {
       setLoading(true);
@@ -56,7 +62,7 @@ const Search = () => {
         name="search-users"
         onChange={handleChange}
       />
-      {show && <Suggestions data={searchResults} />}
+      {show && <Suggestions data={searchResults} handleClick={handleClick} />}
     </div>
   );
 };
