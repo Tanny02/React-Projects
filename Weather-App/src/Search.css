@@ -1,0 +1,41 @@
+.input {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 70%;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 2px 15px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: #1a1a1a;
+}
+
+button {
+  width: 30%;
+  margin-right: 25px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 12px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

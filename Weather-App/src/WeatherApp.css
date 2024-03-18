@@ -1,0 +1,37 @@
+.main {
+  background-color: blue;
+  border-radius: 20px;
+  padding: 10px;
+  min-width: 600px;
+}
+
+.city {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.temp {
+  font-size: 64px;
+  font-weight: bold;
+  color: black;
+}
+
+.weather {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
