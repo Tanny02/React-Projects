@@ -9,11 +9,7 @@ const GithubProfileFinder = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
-  const handleClick = () => {
-    fetchData();
-  };
-
-  const fetchData = async (username) => {
+  const fetchData = async () => {
     try {
       setLoading(true);
       const response = await fetch(`https://api.github.com/users/${username}`);
@@ -26,9 +22,14 @@ const GithubProfileFinder = () => {
       setError(true);
     }
   };
+
+  const handleClick = () => {
+    fetchData();
+  };
+
   useEffect(() => {
-    fetchData(username);
-  }, [username]);
+    fetchData();
+  }, []);
 
   if (loading) {
     return <h1>Loading data</h1>;
